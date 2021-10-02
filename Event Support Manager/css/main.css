@@ -1,0 +1,305 @@
+body,
+html {
+    height: 100%;
+    color: #212529;
+    font-family: "Raleway";
+}
+
+input,
+button,
+submit {
+    border: none;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    color: #212529;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+    font-family: Raleway;
+    box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler {
+    text-decoration: none;
+    border: none;
+    color: #000 !important;
+    cursor: pointer;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    padding: 0.25rem 0.75rem;
+    line-height: 1;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover,
+.navbar-toggler:visited {
+    text-decoration: none;
+    color: #ba0c2f;
+    outline: 0 !important;
+}
+
+.nav-item>.nav-link {
+    font-size: 15px;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 1 !important;
+    color: #333;
+    cursor: pointer;
+}
+
+.nav-item.active>a {
+    color: #ba0c2f;
+}
+
+.cta>a:hover {
+    color: #fff;
+    background: #ba0c2f;
+    border: 1px solid #ba0c2f;
+}
+
+.nav-item.cta>a {
+    color: #fff;
+    background: #ba0c2f;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+
+.cta>a span {
+    display: inline-block;
+    color: #fff;
+    border-color: #ba0c2f;
+}
+
+.home {
+    height: 77vh;
+    min-height: 200px;
+    background-image: url("../imgs/home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.events {
+    height: 77vh;
+    min-height: 200px;
+    background-image: url("../imgs/Sport-Banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.bigh {
+    font-family: "Playfair display";
+}
+
+form i {
+    color: #ba0c2f;
+}
+
+.tbutton {
+    color: #fff;
+    background: #ba0c2f;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+
+.formicon {
+    color: #fff !important;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.sport {
+    background-image: url("../imgs/Sport-Banner.jpg");
+}
+
+.banner {
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    font-family: "Playfair display";
+}
+
+.card {
+    border-color: #ba0c2f;
+    border-width: 3px !important;
+    border-radius: 10px !important;
+}
+
+.card-subtitle {
+    font-weight: 600;
+}
+
+.card-subtitle.text-muted {
+    font-weight: 500;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="datetime-local"],
+input[type="email"],
+input,
+select {
+    border: 0;
+    font-size: 22px;
+    border-bottom: 3px solid #787575;
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+select::-webkit-input-placeholder,
+input::-webkit-input-placehoder,
+.placeholder-s {
+    font-size: 22px !important;
+    color: #787575 !important;
+}
+
+input[type="datetime-local"] {
+    font-size: 17px !important;
+}
+
+input[type="text"]:valid,
+input[type="password"]:valid,
+input[type="datetime-local"]:valid,
+input[type="email"]:valid {
+    border-bottom: 3px solid #000;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+select:focus,
+input:focus {
+    outline: none;
+    border-bottom: 3px solid #ba0c2f;
+}
+
+.input-group-text {
+    background-color: #fff;
+    border: 0px solid #fff;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.alert {
+    border-color: #ba0c2f;
+    border-width: 3px !important;
+    border-radius: 10px !important;
+    background-color: #ba0c2f;
+    color: #fff;
+    font-size: 18px;
+}
+
+.alert button {
+    color: #fff;
+}
+
+.red {
+    color: #ba0c2f;
+}
+
+.ver1 th {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #ba0c2f;
+}
+
+.ver1 td {
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.4;
+}
+
+.ver1 {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.file-upload {
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.file-upload__input {
+    display: none;
+}
+
+.file-upload__button,
+.edit-events {
+    color: #ba0c2f;
+    background: #fff;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: 2px solid #ba0c2f;
+    text-decoration: none;
+}
+
+.file-upload__label {
+    max-width: 250px;
+    font-size: 0.95em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Quicksand", sans-serif;
+}
+
+.addb {
+    font-size: 1rem;
+}
