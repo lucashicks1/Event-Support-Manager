@@ -1,2 +1,2 @@
-# Event-Support-Manager
-System that manages event support as a House-points competition oppurtunity
+# Context
+Central to the ethos of my school is our supporters program and house system. As this plays such a big role in our school community, we are always looking for innovative ways to encourage students to support their mates during co-curricular events. The system aims to monitor and reward students when they support each other. This support could be considered another point earning oppurtunity for the Inter-House competition that happens every year.
